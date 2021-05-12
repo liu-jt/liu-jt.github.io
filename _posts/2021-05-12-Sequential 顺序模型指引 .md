@@ -71,7 +71,7 @@ model.compile(optimizer=''rmsprop',
          metrics=['accuracy', mean_pred])
 ```
 # 4 、训练
-Keras 模型在输入数据和标签的 Numpy 矩阵上进行训练。为了训练一个模型，你通常会使 用 fit 函数。
+Keras 模型在输入数据和标签的 Numpy 矩阵上进行训练。为了训练一个模型，你通常会使 用 fit 函数。   
 ***对于具有 2 个类的单输入模型（二进制分类）：***
 ```
 model = Sequential()
