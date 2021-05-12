@@ -1,6 +1,10 @@
 ---
-published: false
+layout: post
+title: Sequential顺序模型指引
+date: 2021-05-12 
+tags: jekyll   
 ---
+
 # 1 、开始使用 Keras 顺序 (Sequential) 模型
 顺序模型是多个网络层的线性堆叠。 你可以通过将层的列表传递给 Sequential 的构造函数，来创建一个 Sequential 模型：
 ```
