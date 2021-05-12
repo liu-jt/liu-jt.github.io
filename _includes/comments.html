@@ -25,7 +25,7 @@
         this.page.url = "{{ page.url | prepend: site.baseurl | prepend: site.url }}";
         this.page.identifier = "{{ page.url }}";
     };
-    var disqus_shortname = '{{ https-liu-jt-github-io }}';
+    var disqus_shortname = '{{ site.comment.disqus }}';
     
     (function() { // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
