@@ -2,7 +2,7 @@
 layout: post
 title: Sequential顺序模型指引
 date: 2021-05-12 
-tags: jekyll   
+tags: keras   
 ---
 
 # 1 、开始使用 Keras 顺序 (Sequential) 模型
