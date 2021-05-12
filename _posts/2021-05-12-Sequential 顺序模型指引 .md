@@ -1,3 +1,6 @@
+---
+published: false
+---
 # 1 、开始使用 Keras 顺序 (Sequential) 模型
 顺序模型是多个网络层的线性堆叠。 你可以通过将层的列表传递给 Sequential 的构造函数，来创建一个 Sequential 模型：
 ```
@@ -107,3 +110,19 @@ one_hot_labels = keras.utils.to_categorical(labels, num_classes=10)
 # 训练模型，以32个样本为一个batch进行迭代
 model.fit(data, one_hot_labels, epochs=10, batch_size=32)
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
